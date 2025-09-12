@@ -7,7 +7,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Oublie</title>
-    <link rel="stylesheet" href="./style.css">
     <style>
         * {
             font-family: "Roboto", sans-serif;
@@ -18,12 +17,19 @@
             place-items: center;
             height: 100dvh;
             background: linear-gradient(#0a0a0a, oklch(0.2442 0.0412 194.77));
+            overflow: hidden;
+        }
+
+        #center {
+            display: grid;
+            place-items: center;
         }
 
         h1 {
             color: darkcyan;
             font-weight: bold;
-            font-size: 20vw;
+            font-size: 15vw;
+            height: 50%;
         }
 
         #buttons {
